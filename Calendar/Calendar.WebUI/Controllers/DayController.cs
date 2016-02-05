@@ -7,8 +7,6 @@ using System.Web.UI.WebControls;
 using Calendar.Domain.Abstract;
 using Calendar.Domain.Entities;
 using Calendar.WebUI.Models;
-using Calendar.WebUI.Infrastructure;
-using Calendar.Domain.Abstract;
 
 namespace Calendar.WebUI.Controllers
 {
