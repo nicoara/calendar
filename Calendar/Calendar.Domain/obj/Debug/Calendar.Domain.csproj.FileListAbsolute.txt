@@ -1,0 +1,10 @@
+C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.Domain\bin\Debug\Calendar.Domain.dll.config
+C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.Domain\bin\Debug\Calendar.Domain.dll
+C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.Domain\bin\Debug\Calendar.Domain.pdb
+C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.Domain\bin\Debug\EntityFramework.dll
+C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.Domain\bin\Debug\EntityFramework.xml
+C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.Domain\obj\Debug\Calendar.Domain.dll
+C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.Domain\obj\Debug\Calendar.Domain.pdb
+C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.Domain\obj\Debug\Calendar.Domain.csprojResolveAssemblyReference.cache

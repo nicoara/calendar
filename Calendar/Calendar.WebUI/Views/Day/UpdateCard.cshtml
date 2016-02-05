@@ -1,0 +1,15 @@
+﻿@model Calendar.WebUI.Models.CardModel 
+
+@using (Html.BeginForm("UpdateCard", "Day", FormMethod.Post))
+{
+    @Html.ValidationSummary()
+    <p hidden>c_ID: @Html.TextBoxFor(x => x.cID)</p>
+    <p hidden>Day id: @Html.TextBoxFor(x => x.DayId) </p>
+    <p>Index: @Html.TextBoxFor(x => x.Index) (in locul carui index existent vreau sa pun)</p> 
+    <p>Nume: @Html.TextBoxFor(x => x.Name) </p>
+    <p>Minute: @Html.TextBoxFor(x => x.Minutes) </p>
+    <p>Ora start: @Html.TextBoxFor(x => x.StartHour)</p>
+    <p>Ora fixa: @Html.TextBoxFor(x => x.Fixed)</p>
+    <p>Facut: @Html.TextBoxFor(x => x.Done)</p>
+    <input type="submit" />
+}

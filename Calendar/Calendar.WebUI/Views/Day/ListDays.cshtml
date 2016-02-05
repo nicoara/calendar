@@ -1,0 +1,28 @@
+﻿@using Calendar.WebUI.Html_helpers
+@model Calendar.WebUI.Models.DayViewModel
+
+@Html.ActionLink("features", "Features", "Day")
+
+<br>
+
+@Html.ActionLink("adauga o zi", "AddDay", "Day")
+
+<br>
+
+@for (int i = 0; Model.lstDays != null && i < Model.lstDays.Count; i++)
+{
+    <table>
+        <tr>
+            <tc>
+                @{
+                    HtmlHelper customHelper1 = null;
+                    @customHelper1.cleanDay(Model.lstDays[i].d_Date)
+                }
+            </tc>
+            <tc>
+                @Html.ActionLink("edit","EditDay", new {id = Model.lstDays[i].d_ID})
+            </tc>
+        </tr>
+
+    </table>
+}

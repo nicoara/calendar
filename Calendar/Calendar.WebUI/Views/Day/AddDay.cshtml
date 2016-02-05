@@ -1,0 +1,8 @@
+﻿@model Calendar.WebUI.Models.DayFormViewModel 
+
+@using (Html.BeginForm("AddDay", "Day", FormMethod.Post))
+{
+    <p>Luna: @Html.TextBoxFor(x => x.Month) </p>
+    <p>Zi: @Html.TextBoxFor(x => x.Day)</p>
+    <input type="submit" />
+}

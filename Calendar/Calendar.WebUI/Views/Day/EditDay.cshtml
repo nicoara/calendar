@@ -1,0 +1,119 @@
+﻿@using System.Web.UI.WebControls
+@using Calendar.WebUI.Html_helpers
+@model global::Calendar.WebUI.Models.EditDayModel
+
+<script src="/Scripts/editDay.js"></script>
+
+@{
+    HtmlHelper customHelper = null;
+    @customHelper.cleanDay(Model.Date.d_Date)
+
+    <br/>
+    
+    @Html.ActionLink("delete", "DeleteDay", new {id = Model.Date.d_ID})
+
+    <br/>
+    
+    @Html.ActionLink("add card", "AddCard", new {id = Model.Date.d_ID})
+
+    <br/>
+    <p style="display:inline-block; min-width: 100px; ">
+        index
+    </p>
+    <p style="display: inline-block; min-width: 200px;">
+        nume
+    </p>
+    <p style="display:inline-block; min-width: 100px;">
+        minute
+    </p>
+    <p style="display: inline-block; min-width: 100px;">
+        ora start
+    </p>
+    <p style="display: inline-block; min-width: 100px;">
+        ora end
+    </p>
+    <p style="display: inline-block; min-width: 100px;">
+        ora fixa
+    </p>
+    
+    <br/>
+    for (int i = 0; Model.lstCards != null && i < Model.lstCards.Count; i++)
+    {
+        <div
+            @{
+                @: id="cid_@Model.lstCards[i].c_ID" 
+
+
+                if (ViewBag.lstConflictingCards.Contains(Model.lstCards[i].c_ID))
+                {
+                    @: style="background-color: pink;"
+                }
+                else if (Model.lstCards[i].c_Done)
+                {
+                    @: style="background-color: lightgreen;"
+                }
+            }
+            >
+            <p style="display: inline-block; min-width: 100px;">
+                @Model.lstCards[i].c_Index
+            </p>
+            <p style="display: inline-block; min-width: 200px;">
+                @Model.lstCards[i].c_Name
+            </p>
+            <p style="display: inline-block; min-width: 100px;">
+                @Model.lstCards[i].c_Minutes
+            </p>
+            <p style="display: inline-block; min-width: 100px;">
+                @Model.lstCards[i].c_StartHour.Hour :
+                @{
+                    if (Model.lstCards[i].c_StartHour.Minute < 10)
+                    {
+                        string val = "0" + Model.lstCards[i].c_StartHour.Minute;
+                        @val
+                    }
+                    else
+                    {
+                        @Model.lstCards[i].c_StartHour.Minute
+                    }
+                }
+            </p>
+            <p style="display: inline-block; min-width: 100px;">
+                @{
+                    DateTime endHour = Model.lstCards[i].c_StartHour
+                        .AddMinutes(Model.lstCards[i].c_Minutes);
+                }
+                @endHour.Hour :
+                @{
+                    if (endHour.Minute < 10)
+                    {
+                        string val = "0" + endHour.Minute;
+                        @val
+                    }
+                    else
+                    {
+                        @endHour.Minute
+                    }
+                }
+            </p>
+            <p style="display: inline-block; min-width: 100px;">
+                @{
+                    if (Model.lstCards[i].c_FixedHour == true)
+                    {
+                        @:da
+                    }
+                }
+            </p>
+            <p style="display: inline-block; min-width: 100px;">
+                @Html.ActionLink("delete", "DeleteCard", new {id = Model.lstCards[i].c_ID})
+            </p>
+            <p style="display: inline-block; min-width: 100px;">
+                @Html.ActionLink("edit", "UpdateCard", new {id = Model.lstCards[i].c_ID})
+            </p>
+            <br/>
+        </div>
+
+}
+
+           
+}
+
