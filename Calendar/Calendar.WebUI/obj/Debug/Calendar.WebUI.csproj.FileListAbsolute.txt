@@ -31,3 +31,36 @@ C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.WebUI\b
 C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.WebUI\obj\Debug\Calendar.WebUI.csprojResolveAssemblyReference.cache
 C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.WebUI\obj\Debug\Calendar.WebUI.dll
 C:\Users\nicoara\Documents\Visual Studio 2012\Projects\Calendar\Calendar.WebUI\obj\Debug\Calendar.WebUI.pdb
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Calendar.WebUI.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Calendar.WebUI.pdb
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Antlr3.Runtime.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Calendar.Domain.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\EntityFramework.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Moq.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Newtonsoft.Json.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Ninject.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\System.Web.Mvc.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\System.Web.Optimization.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\System.Web.Providers.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\System.Web.Razor.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\System.Web.WebPages.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\System.Web.WebPages.Razor.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\WebGrease.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Calendar.Domain.pdb
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\EntityFramework.xml
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Moq.xml
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Ninject.xml
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\Newtonsoft.Json.xml
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\System.Web.Mvc.xml
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\System.Web.Razor.xml
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\System.Web.WebPages.xml
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\bin\System.Web.WebPages.Razor.xml
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\obj\Debug\Calendar.WebUI.csprojResolveAssemblyReference.cache
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\obj\Debug\Calendar.WebUI.dll
+C:\Users\nicoara\Source\Repos\calendar\Calendar\Calendar.WebUI\obj\Debug\Calendar.WebUI.pdb

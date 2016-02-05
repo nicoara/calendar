@@ -25,22 +25,24 @@ namespace Calendar.WebUI.Controllers
         }
 
         public ViewResult ListDays()
-        {           
+        {
+            DayViewModel model = new DayViewModel();
+            if (repositoryDay.Days.Any())
+            {
+                model.lstDays = repositoryDay.Days.ToList();
+            }
+
+            return View(model);
+            /*
             try
             {
-                DayViewModel model = new DayViewModel();
-                if (repositoryDay.Days.Any())
-                {
-                    model.lstDays = repositoryDay.Days.ToList();
-                }
 
-                return View(model);
             }
             catch (Exception ex)
             {
                 return View("Eroare",
                     new EroareViewModel { MesajEroare = _mesajEroare });
-            }
+            }*/
         }
 
         public ViewResult AddDay()
